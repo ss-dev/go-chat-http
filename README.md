@@ -12,8 +12,8 @@ HTTP means the client should to do a request to the server every time when it wa
 For running the example you should have working [Go development environment](https://golang.org/doc/install).
 You can start the server using the following commands:
 
-$ go get github.com/ss-dev/go-chat-http
-$ cd `go list -f '{{.Dir}}' github.com/ss-dev/go-chat-http`
-$ go run app.go
+    $ go get github.com/ss-dev/go-chat-http
+    $ cd `go list -f '{{.Dir}}' github.com/ss-dev/go-chat-http`
+    $ go run app.go
 
 To use the example, open http://localhost:8080/ in your browser.
